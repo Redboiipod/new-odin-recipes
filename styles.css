@@ -1,0 +1,105 @@
+* {
+box-sizing: border-box;
+
+}
+
+body {
+    background-color: lightgray;
+}
+
+.container {
+background-color: rgb(92, 92, 146);
+margin: 150px auto;
+text-align: center;
+height: 1000px;
+width: 900px;
+padding: 100px;
+border:  rgb(103, 22, 22) solid 15px;
+
+}
+
+
+.title  {
+font-family: Courier, monospace;
+font-size: 100px;
+color: rgba(218, 207, 150, 0.832);
+text-align: center;
+background-color: rgb(103, 22, 22);
+margin: 0px 100px 100px 100px;
+border: darkgreen dashed 5px ;
+
+}
+
+.list  {
+    font-size: 30px;
+
+}
+
+button {
+    margin: 50px auto;
+    background-color: silver;
+    display: block;
+    font-size: 30px;
+    padding: 15px 20px;
+    border: black 5px solid;
+}
+
+/* Below is for each recipe page */
+
+
+.container.recipe {
+
+height: 2500px;
+width: 900px;
+
+}
+
+.container.recipe.curry {
+    height: 2800px;
+}
+
+.title-recipe {
+
+font-family: monospace;
+font-size: 50px;
+color: rgba(218, 207, 150, 0.832);
+
+
+}
+
+.img-recipe {
+
+    border: 5px black solid;
+
+
+}
+
+.container-ingredients {
+background-color: rgba(22, 135, 22, 0.559);
+padding: 10px;
+text-align: left;
+border: black 1px solid;
+margin-top: 20px;
+}
+
+
+h2 {
+
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(218, 207, 150, 0.832);
+    font-size: 40px;
+    text-align: center;
+    margin: 60px;
+
+}
+
+ol, ul {
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+}
+
+li {
+margin: 12px 8px;
+}
+
